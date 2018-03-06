@@ -7,7 +7,6 @@ window.addEventListener('keydown', function(e){
 	audioSrc.currentTime = 0;
 	if(!audioSrc) return;
 	audioSrc.play();
-	// keySrc.classList.remove("playing");
 });
 
 function removePlayingClass(e){
