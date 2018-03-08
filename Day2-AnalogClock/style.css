@@ -19,7 +19,7 @@ body {
     height: 20rem;
     border: 20px solid white;
     border-radius: 50%;
-    margin: 15rem auto;
+    margin: 50% auto;
     margin-bottom: 20px;
     position: relative;
     padding: 2rem;
@@ -33,7 +33,7 @@ body {
     height: 10rem;
     margin: 20px auto;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 30px;
     font-weight: bold;
     display: inline;
 }
