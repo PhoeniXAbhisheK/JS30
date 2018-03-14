@@ -1,0 +1,16 @@
+/*
+    General CSS
+*/
+
+body{
+    background-color: #eee;
+    font-family: 'Roboto', 'Arial';
+    text-align: center;
+} 
+p{
+	width: 100%;
+	text-align: center;
+	margin-top: 20%;
+	font-size: 2rem;
+}
+
