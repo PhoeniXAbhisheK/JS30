@@ -1,0 +1,19 @@
+/*basic reset*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin-top: 20%;
+    font-size: 2rem;
+    z-index: 100;
+}
+
+canvas {
+    display: block;
+}
