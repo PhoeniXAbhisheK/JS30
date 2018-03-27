@@ -1,0 +1,23 @@
+/*
+    General CSS
+*/
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eee;
+    font-family: 'Roboto', 'Arial';
+    text-align: center;
+    margin: 0;
+}
+
+p {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin-top: 20%;
+    font-size: 2rem;
+    z-index: 100;
+}
