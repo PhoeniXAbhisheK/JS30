@@ -1,0 +1,45 @@
+/*
+    General CSS
+*/
+
+html {
+    box-sizing: border-box;
+    background-size: cover;
+}
+
+body {
+    /*background-color: #eee;*/
+    background: url("https://source.unsplash.com/nDqA4d5NL0k/2000x2000");
+    background-size: cover;
+    font-family: 'Roboto', 'Arial';
+    text-align: left;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+#bands {
+    list-style: inside square;
+    font-size: 15px;
+    background: white;
+    width: 50%;
+    margin: auto;
+    padding: 0;
+    box-shadow: 0 0 0 20px rgba(0, 0, 0, 0.05);
+}
+
+#bands li {
+    border-bottom: 1px solid #efefef;
+    padding: 10px;
+}
+
+#bands li:last-child {
+    border-bottom: 0;
+}
+
+a {
+    color: #ffc600;
+    text-decoration: none;
+}
