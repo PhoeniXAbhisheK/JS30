@@ -1,0 +1,191 @@
+/*
+    General CSS
+*/
+
+html {
+    box-sizing: border-box;
+    background-size: cover;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: #eee;
+    font-family: 'Roboto', 'Arial';
+    text-align: left;
+    /*margin: 10% auto;*/
+    display: flex;
+    align-items: center;
+    /*flex-direction: column;*/
+    /*min-height: 100vh;*/
+}
+
+.photobooth {
+    background: white;
+    max-width: 150rem;
+    margin: 2rem auto;
+    border-radius: 2px;
+}
+
+
+/*clearfix*/
+
+.photobooth:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.photo {
+    width: 100%;
+    float: left;
+}
+
+.player {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 200px;
+}
+
+
+
+
+
+/*
+  Strip!
+*/
+
+.strip {
+    padding: 2rem;
+}
+
+.strip img {
+    width: 100px;
+    overflow-x: scroll;
+    padding: 0.8rem 0.8rem 2.5rem 0.8rem;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+    background: white;
+}
+
+.strip a:nth-child(5n+1) img {
+    transform: rotate(10deg);
+}
+
+.strip a:nth-child(5n+2) img {
+    transform: rotate(-2deg);
+}
+
+.strip a:nth-child(5n+3) img {
+    transform: rotate(8deg);
+}
+
+.strip a:nth-child(5n+4) img {
+    transform: rotate(-11deg);
+}
+
+.strip a:nth-child(5n+5) img {
+    transform: rotate(12deg);
+}
+
+
+/*
+    Name: Range Slider custom css.
+    Source : http://danielstern.ca/range.css/#/
+    
+    Modifications done to suit preferences.
+*/
+
+input[type=range] {
+    -webkit-appearance: none;
+    margin: 7.3px 0;
+}
+
+input[type=range]:focus {
+    outline: none;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 11.4px;
+    cursor: pointer;
+    background: rgba(48, 113, 169, 0.78);
+    border-radius: 10px;
+    border: 0.2px solid #010101;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    border: 1px solid #555;
+    height: 20px;
+    width: 20px;
+    border-radius: 15px;
+    background: #ffffff;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -5px;
+}
+
+input[type=range]:focus::-webkit-slider-runnable-track {
+    background: rgba(49, 116, 173, 0.78);
+}
+
+input[type=range]::-moz-range-track {
+    width: 100%;
+    height: 11.4px;
+    cursor: pointer;
+    background: rgba(48, 113, 169, 0.78);
+    border-radius: 1.3px;
+    border: 0.2px solid #010101;
+}
+
+input[type=range]::-moz-range-thumb {
+    border: 1px solid #555;
+    height: 20px;
+    width: 20px;
+    border-radius: 15px;
+    background: #ffffff;
+    cursor: pointer;
+}
+
+input[type=range]::-ms-track {
+    width: 100%;
+    height: 11.4px;
+    cursor: pointer;
+    background: transparent;
+    border-color: transparent;
+    color: transparent;
+}
+
+input[type=range]::-ms-fill-lower {
+    background: rgba(47, 110, 165, 0.78);
+    border: 0.2px solid #010101;
+    border-radius: 2.6px;
+}
+
+input[type=range]::-ms-fill-upper {
+    background: rgba(48, 113, 169, 0.78);
+    border: 0.2px solid #010101;
+    border-radius: 2.6px;
+}
+
+input[type=range]::-ms-thumb {
+    border: 1px solid #555;
+    height: 20px;
+    width: 20px;
+    border-radius: 15px;
+    background: #ffffff;
+    cursor: pointer;
+    height: 11.4px;
+}
+
+input[type=range]:focus::-ms-fill-lower {
+    background: rgba(48, 113, 169, 0.78);
+}
+
+input[type=range]:focus::-ms-fill-upper {
+    background: rgba(49, 116, 173, 0.78);
+}
