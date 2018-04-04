@@ -1,0 +1,17 @@
+ html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after { box-sizing: inherit; }
+  div {
+    width:100%;
+    padding:100px;
+  }
+  .parent {
+    background: thistle;
+  }
+  .child {
+    background:mistyrose;
+  }
+  .grand-child {
+    background:coral;
+  }
