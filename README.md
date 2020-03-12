@@ -1,2 +1,2 @@
 # JS30
-Files for Javascript30(JS30) - Course by WesBos.
+Files for [Javascript30](https://javascript30.com/) - Course by WesBos.
